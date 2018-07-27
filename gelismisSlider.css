@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    font: 14px Arial;
+}
+.aktif{
+    background-color:#9d0a0a;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#slider{
+    width: 704px;
+    height: 304px;
+    margin: 20px auto;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+ padding:1px;
+    border: 2px solid #ddd;
+    opacity: 0.98;
+  
+    
+    
+}
+#slider:hover{
+    opacity: 1;
+}
+
+#slider ul#slider-resim li a img{
+    width: 700px;
+    height: 300px;
+}
+#slider ul#slider-buton{
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+}
+
+
